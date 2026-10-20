@@ -1,0 +1,70 @@
+
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Tinos", serif;
+}
+
+html {
+  background-color: #5610ed;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #d41616;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200 200 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(190 190 190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235 235 235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250 250 250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(220 220 220);
+}
+
+caption {
+  padding: 10px;
+}
